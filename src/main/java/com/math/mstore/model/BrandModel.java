@@ -46,5 +46,12 @@ public class BrandModel {
 		this.description = description;
 	}
 
+	public List<ProductModel> getProduct() {
+		return product;
+	}
+
+	public void setProduct(List<ProductModel> product) {
+		this.product = product;
+	}
 
 }

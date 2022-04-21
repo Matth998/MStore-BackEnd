@@ -26,6 +26,8 @@ public class ProductModel {
 	@NotBlank
 	private Double price;
 	
+	private Double promotion;
+	
 	@NotBlank
 	private Long quantity;
 	
@@ -85,6 +87,30 @@ public class ProductModel {
 
 	public String getImg() {
 		return img;
+	}
+
+	public Double getPromotion() {
+		return promotion;
+	}
+
+	public void setPromotion(Double promotion) {
+		this.promotion = promotion;
+	}
+
+	public UserModel getUser() {
+		return user;
+	}
+
+	public void setUser(UserModel user) {
+		this.user = user;
+	}
+
+	public BrandModel getBrand() {
+		return brand;
+	}
+
+	public void setBrand(BrandModel brand) {
+		this.brand = brand;
 	}
 
 	public void setImg(String img) {
